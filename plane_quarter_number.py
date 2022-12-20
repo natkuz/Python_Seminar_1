@@ -12,11 +12,11 @@ y = int(input('Enter y coordinate other than 0: '))
 if x != 0 and y != 0:
     if x > 0 and y > 0:
         number_plane = 1
-    if x < 0 and y > 0:
+    elif x < 0 and y > 0:
         number_plane = 2
-    if x < 0 and y < 0:
+    elif x < 0 and y < 0:
         number_plane = 3
-    if x > 0 and y < 0: 
+    elif x > 0 and y < 0: 
         number_plane = 4   
     
     print(f'For coordinates x = {x} and y = {y} plane quarter number is {number_plane}')
